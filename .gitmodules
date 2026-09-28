@@ -1,3 +1,6 @@
 [submodule "syncra-frontend"]
 	path = syncra-frontend
 	url = https://github.com/DeeprajB/syncra-frontend.git
+[submodule "syncra-backend"]
+	path = syncra-backend
+	url = https://github.com/DeeprajB/syncra-backend.git
