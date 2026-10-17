@@ -27,11 +27,6 @@ Syncra is a real-time project space for a class, a group, or one piece of work. 
 
 This repository ties the two services together. The product itself lives in the submodules.
 
-| | | |
-| --- | --- | --- |
-| **App** | [syncra-frontend](syncra-frontend/README.md) | Next.js on Cloudflare |
-| **API** | [syncra-backend](syncra-backend/README.md) | FastAPI on Render |
-
 ## The app
 
 The site is live at [syncra-frontend.deeprajb012.workers.dev](https://syncra-frontend.deeprajb012.workers.dev). The home page, Features, and How it works are public. The dashboard requires a sign-in.
@@ -54,13 +49,13 @@ Roles, the route list, the socket protocol, configuration, and the test command 
 
 ## Stack
 
-| | App | API |
-| --- | --- | --- |
-| Runtime | Next.js 16, React 19 | Python 3.9+, FastAPI |
-| Sign-in | Auth0 | Auth0 RS256 access tokens |
-| Data | TanStack Query | MongoDB |
-| Live updates | Workspace socket | In-process WebSocket registry |
-| Host | Cloudflare, via OpenNext | Render |
+|              | App                      | API                           |
+| ------------ | ------------------------ | ----------------------------- |
+| Runtime      | Next.js 16, React 19     | Python 3.9+, FastAPI          |
+| Sign-in      | Auth0                    | Auth0 RS256 access tokens     |
+| Data         | TanStack Query           | MongoDB                       |
+| Live updates | Workspace socket         | In-process WebSocket registry |
+| Host         | Cloudflare, via OpenNext | Render                        |
 
 ## Clone
 
